@@ -15,4 +15,6 @@ console.log();
 
 */
 
-alert(" Hello Word from the external js file");
+//alert(" Hello Word from the external js file"); 
+
+console.log("Hello from the console logger .1")
