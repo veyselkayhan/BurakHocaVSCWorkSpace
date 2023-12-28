@@ -34,7 +34,8 @@ h2{
     width:200%;
     height:100%;
     display:flex;
-    margin-left:-0%
+    margin-left:-0%;
+    
 }
 
 .Carousel > ul > li{
@@ -42,7 +43,7 @@ h2{
 
     flex-basis:0;
     flex-grow:1;
-
+    
     /* flex:1 1 0 */
     
 }

@@ -36,3 +36,10 @@ boxEl.classList.toggle("expanded");
 //8-classList.contains
 
 console.log(boxEl.classList.contains("box"));
+
+//9 - dataset property 
+
+const articleEl = document.querySelector("article")
+console.log(articleEl.dataset.denemeBurak);
+console.log(articleEl.dataset.firstSeen);
+console.log(articleEl.dataset.index);

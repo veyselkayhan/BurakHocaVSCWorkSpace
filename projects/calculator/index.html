@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <script src="./01.js"></script>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <div style="border: 2px solid black; width: 300px; height: 300px; display: flex; flex-direction: column; align-items: center;">
+        <div style="display: flex; justify-content: space-between; width: 100%;">
+            <span style="flex: 1; text-align: left;">Calculator</span>
+            <div style="border: 1px solid black; width: 100px; height: 60px; display: flex; flex-direction: column; justify-content: center; align-items: center;">
+                <label for="operationType">Operation type</label>
+                <select id="operationType">
+                    <option value="toplama">Toplama</option>
+                    <option value="cikarma">Çıkarma</option>
+                    <option value="carpma">Çarpma</option>
+                    <option value="bolme">Bölme</option>
+                </select>
+            </div>
+        </div>
+        <div style="display: flex; justify-content: center; align-items: center; margin-top: 20px;">
+            <div style="border: 2px solid black; width: 200px; height: 150px; display: flex; flex-direction: column; justify-content: center; align-items: center;">
+                <form onsubmit="calculateResult(event)">
+                    <input type="number" placeholder="sayi1" name="op1" style="margin-bottom: 10px;" required>
+                    <input type="number" placeholder="sayi2" name="op2" required>
+                    <br>
+                    <button type="submit" style="margin-top: 10px">Hesapla</button>
+                </form>
+            </div>
+        </div>
+        <br>
+        <div id="resultBox" style="border: 2px solid black; height: 30px; width: 200px;"></div>
+    </div>
+    
+    
+    
+    
+    
+</body>
+</html>
