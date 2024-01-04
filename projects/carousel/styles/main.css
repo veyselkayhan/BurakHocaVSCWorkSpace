@@ -35,7 +35,8 @@ h2{
     height:100%;
     display:flex;
     margin-left:-0%;
-    
+
+    transition:margin-left 500ms ease-out;
 }
 
 .Carousel > ul > li{
@@ -43,7 +44,7 @@ h2{
 
     flex-basis:0;
     flex-grow:1;
-    
+
     /* flex:1 1 0 */
     
 }
